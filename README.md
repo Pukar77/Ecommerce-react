@@ -1,1 +1,1 @@
-ecommerce-pukarrimal.netlify.app
+https://ecommerce-pukarrimal.netlify.app/
