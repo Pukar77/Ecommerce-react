@@ -7,6 +7,7 @@ import Shoppage from './Shoppage.jsx'
 import Contact from './Contact.jsx'
 import { UserContextProvider } from './Productcontext.jsx'
 import Homepage from './Homepage.jsx'
+import Help from './Help.jsx'
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,11 @@ element:<Contact/>
   {
     path:'/product/:id',
     element:<Product/>
+  },
+
+  {
+    path:'/help',
+    element:<Help/>
   }
 
 

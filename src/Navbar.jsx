@@ -105,6 +105,18 @@ export default function Navbar() {
                   <span>Contactus</span>
                 </NavLink>
               </li>
+
+              <li role="none" className="flex items-stretch">
+                <NavLink
+                  role="menuitem"
+                  aria-current="page"
+                  aria-haspopup="false"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-600  e lg:px-8"
+                  to="/help"
+                >
+                  <span>Premium Product</span>
+                </NavLink>
+              </li>
              
             </ul>
             <div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">

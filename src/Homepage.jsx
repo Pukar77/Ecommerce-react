@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { NavLink } from 'react-router-dom'
 import Footer from './Footer'
+import hero from '../src/photoharu/hero.jpg'
 
 function Homepage() {
   return (
@@ -13,7 +14,7 @@ function Homepage() {
       <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
         <img
           alt=""
-          src="../public/Photos/hero.jpg"
+          src={hero}
           className="absolute inset-0 h-full w-full object-cover"
         />
       </div>

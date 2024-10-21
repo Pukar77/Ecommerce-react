@@ -11,9 +11,12 @@ function Shoppage() {
     <>
       <Navbar />
       <h1 className='text-blue-300 text-5xl text-center pt-2 mb-3'>Let's Shop</h1>
+<div className='flex justify-end'>
+      <input type='text' placeholder='Search' className='p-4 border-2 border-black h-3 rounded' ></input>
+      </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-        {items.map((item, index) => {
+        {items.slice(2,22).map((item, index) => {
           return (
             <div key={index} className="max-w-xs mx-auto">
               <div className="group relative block overflow-hidden rounded-lg shadow-lg">
